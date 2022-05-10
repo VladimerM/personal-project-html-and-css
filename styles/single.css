@@ -1,0 +1,41 @@
+.single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 542px;
+  background-color: #232323;
+  gap: 30px;
+  font-family: GlacialIndifference Arial, Helvetica, sans-serif;
+}
+.single__title {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 0.86;
+  color: #fff;
+  margin-left: 25px;
+}
+
+.navbar {
+  margin-left: 34px;
+}
+.navbar span {
+  color: #8799a3;
+  margin-right: 20px;
+}
+
+.navbar__link {
+  font-family: Muli;
+  font-size: 17.8px;
+  line-height: 2;
+  color: #8799a3;
+}
+
+.navbar__link._active {
+  color: #fff;
+}
+
+.navbar__link:not(:last-child) {
+  margin-right: 17px;
+}
