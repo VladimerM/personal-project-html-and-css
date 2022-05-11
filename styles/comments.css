@@ -1,6 +1,5 @@
-.main__comments {
-}
 .comments {
+  margin-bottom: 170px;
 }
 .comments__header {
   display: flex;
@@ -19,8 +18,7 @@
   line-height: 2;
   color: #999;
 }
-.comments__comment {
-}
+
 .comment {
   display: flex;
   position: relative;
@@ -119,8 +117,6 @@
   height: 60px;
 }
 
-.comment__info {
-}
 .comment__title {
   display: flex;
   align-items: center;
