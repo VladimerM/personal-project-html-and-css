@@ -2,3 +2,18 @@
   max-width: 1160px;
   margin: 0 auto;
 }
+
+.page {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+}
+.main {
+  flex: 0 0 800px;
+}
+
+.sidebar {
+  flex: 0 0 360px;
+  background-color: aqua;
+}

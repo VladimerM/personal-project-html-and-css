@@ -5,17 +5,18 @@
   width: 100vw;
   height: 687px;
   background-color: #232323;
+  margin-bottom: 113px;
 }
 .single__title {
   font-size: 60px;
   line-height: 0.86;
   font-weight: 500;
   color: #fff;
-  margin-left: 40px;
-  word-spacing: 10px;
+  margin-left: 48px;
   padding-top: 350px;
-  margin-bottom: 35px;
+  margin-bottom: 37px;
   font-family: "Glacial Indifference";
+  letter-spacing: 2px;
 }
 
 .navbar {
