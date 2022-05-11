@@ -1,0 +1,140 @@
+.main__comments {
+}
+.comments {
+}
+.comments__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.comments__title {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #222;
+}
+.comments__number {
+  font-family: Muli;
+  font-size: 14px;
+  line-height: 2;
+  color: #999;
+}
+.comments__comment {
+}
+.comment {
+  display: flex;
+  position: relative;
+  padding: 26px 0px 22px 32px;
+  gap: 30px;
+  border-radius: 2px;
+  border: solid 1px #000000;
+}
+
+.comment.scott {
+  margin-bottom: 20px;
+}
+
+.comment.reply {
+  padding-left: 83px;
+}
+.comment__avatar {
+  flex: 0 0 79px;
+  height: 79px;
+  border-radius: 2.6px;
+  background-color: #d2d2d2;
+}
+.comment__info {
+}
+.comment__title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 4px;
+  margin-bottom: 18px;
+}
+
+.comment.carl .comment__title {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.comment.harold {
+  padding-right: 29px;
+  padding-bottom: 30px;
+}
+
+.comment.harold .comment__title {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.comment__name {
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  color: #2f2933;
+}
+.comment__date {
+  font-family: OpenSans;
+  font-size: 16px;
+  color: #ccc;
+}
+.comment__about {
+  font-family: Muli;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.comment.harold .comment__about {
+  margin-bottom: 20px;
+}
+.comment__buttons {
+  display: flex;
+  gap: 20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #999;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.comment__buttons i {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.comment__buttons i:hover {
+  color: #ee3364;
+}
+
+.comment__reply::after {
+  content: "/";
+  padding-left: 15px;
+}
+
+.comment__share::after {
+  content: "/";
+  padding-left: 15px;
+}
+
+.comment__buttons div i {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.fa-angle-down {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.fa-ellipsis {
+  position: absolute;
+  bottom: 8px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
