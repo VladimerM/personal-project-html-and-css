@@ -1,7 +1,8 @@
 .header {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   background-color: #fff;
+  padding-left: 15px;
 }
 .header__contact {
   display: flex;
@@ -9,14 +10,14 @@
   align-items: center;
   justify-content: space-between;
   font-size: 15px;
-  width: 1160px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
 .header__contact::after {
   content: "";
   display: block;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   left: 0;
   top: 48px;
