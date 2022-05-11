@@ -1,3 +1,7 @@
+body {
+  font-family: "Glacial Indifference";
+}
+
 ._container {
   max-width: 1160px;
   margin: 0 auto;
