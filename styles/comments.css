@@ -27,7 +27,7 @@
   padding: 26px 0px 22px 32px;
   gap: 30px;
   border-radius: 2px;
-  border: solid 1px #000000;
+  border: solid 1px #ececec;
 }
 
 .comment.scott {
@@ -36,6 +36,7 @@
 
 .comment.reply {
   padding-left: 83px;
+  background-color: rgba(105, 210, 231, 0.06);
 }
 .comment__avatar {
   flex: 0 0 79px;
@@ -43,6 +44,81 @@
   border-radius: 2.6px;
   background-color: #d2d2d2;
 }
+
+.comment.carl .comment__avatar {
+  flex: 0 0 76px;
+  height: 73px;
+}
+
+.comment.carl .comment__title {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.comment.harold {
+  padding: 23px 29px 30px 85px;
+}
+
+.comment.harold .comment__title {
+  margin-top: 12px;
+  margin-bottom: 11px;
+}
+
+.comment.harold .comment__avatar {
+  flex: 0 0 75px;
+  height: 73px;
+}
+
+.comment.harold .comment__about {
+  margin-bottom: 20px;
+}
+
+.comment.johnson {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.comment.johnson .comment__about {
+  margin-bottom: 20px;
+}
+
+.comment.johnson .comment__title {
+  margin-top: 15px;
+  margin-bottom: 11px;
+}
+
+.comment.justin {
+  padding-top: 29px;
+}
+
+.justin .comment__title {
+  margin-top: 12px;
+  margin-bottom: 11px;
+}
+
+.comment.justin .comment__avatar {
+  flex: 0 0 60px;
+  height: 60px;
+}
+
+.comment.tyler {
+  padding-top: 25px;
+}
+
+.tyler .comment__title {
+  margin-top: 20px;
+  margin-bottom: 11px;
+}
+
+.tyler .comment__about {
+  margin-bottom: 17px;
+}
+
+.comment.tyler .comment__avatar {
+  flex: 0 0 60px;
+  height: 60px;
+}
+
 .comment__info {
 }
 .comment__title {
@@ -53,20 +129,6 @@
   margin-bottom: 18px;
 }
 
-.comment.carl .comment__title {
-  margin-top: 15px;
-  margin-bottom: 8px;
-}
-
-.comment.harold {
-  padding-right: 29px;
-  padding-bottom: 30px;
-}
-
-.comment.harold .comment__title {
-  margin-top: 12px;
-  margin-bottom: 8px;
-}
 .comment__name {
   font-size: 21px;
   font-weight: 800;
@@ -87,9 +149,6 @@
   margin-bottom: 30px;
 }
 
-.comment.harold .comment__about {
-  margin-bottom: 20px;
-}
 .comment__buttons {
   display: flex;
   gap: 20px;
