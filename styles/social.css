@@ -1,0 +1,55 @@
+.social__title {
+  font-family: "Glacial Indifference";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #2f2933;
+  margin-bottom: 24px;
+}
+.social__img {
+  width: 770px;
+  height: 450px;
+  background-color: #4c4c4c;
+  margin-bottom: 25px;
+}
+.social__about {
+  width: 770px;
+  margin-bottom: 15px;
+}
+
+.social__buttons {
+  display: flex;
+  gap: 10px;
+  font-family: "Glacial Indifference";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 4.29;
+  color: #fff;
+}
+
+.social__buttons .btn {
+  width: 184.8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #000000;
+}
+
+.button__facebook {
+  padding-left: 30px;
+}
+
+.button__twitter {
+  padding-left: 30px;
+}
+
+.button__google {
+  padding-left: 30px;
+  text-transform: lowercase;
+}
+
+.button__pinterest {
+  padding-left: 45px;
+  text-transform: lowercase;
+}

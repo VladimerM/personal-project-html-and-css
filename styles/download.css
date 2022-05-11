@@ -1,6 +1,7 @@
 .download {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 39px;
 }
 .download__title {
   font-family: "Glacial Indifference";
@@ -54,12 +55,7 @@
   text-transform: uppercase;
   gap: 16px;
 }
-.btn {
-}
-.download__ad {
-}
-.ad {
-}
+
 .ad__title {
   font-family: Raleway;
   font-size: 10px;
