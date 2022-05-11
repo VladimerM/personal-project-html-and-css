@@ -17,3 +17,10 @@
   flex: 0 0 360px;
   background-color: aqua;
 }
+
+.about {
+  font-family: Muli;
+  font-size: 17px;
+  line-height: 1.76;
+  color: #666;
+}

@@ -1,0 +1,78 @@
+.download {
+  display: flex;
+  flex-wrap: wrap;
+}
+.download__title {
+  font-family: "Glacial Indifference";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: left;
+  color: #2f2933;
+  margin-bottom: 16px;
+  flex: 0 0 100%;
+}
+.download__about {
+  margin-bottom: 24px;
+  flex: 0 0 100%;
+}
+
+.download__list-cont {
+  flex: 0 0 470px;
+}
+.download__list {
+  margin-bottom: 27px;
+}
+
+.download__list span {
+  margin-right: 13px;
+}
+
+.download__item {
+  font-size: 16px;
+  margin-bottom: 12px;
+  letter-spacing: 0px;
+  font-family: Muli;
+}
+
+.download__item::before {
+  content: "<i class=" fa-solid fa-block-question "></i>";
+}
+.download__btn {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ee3364;
+  font-family: "Glacial Indifference";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 5;
+  letter-spacing: 0.6px;
+  color: #fff;
+  text-transform: uppercase;
+  gap: 16px;
+}
+.btn {
+}
+.download__ad {
+}
+.ad {
+}
+.ad__title {
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  color: #ccc;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.ad__img {
+  width: 300px;
+  height: 250px;
+  opacity: 0.9;
+  background-image: linear-gradient(14deg, #3456c2 9%, #0ba5c1 91%);
+}

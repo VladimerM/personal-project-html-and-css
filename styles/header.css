@@ -27,7 +27,8 @@
 .header__not-social {
   display: flex;
   gap: 90px;
-  margin-top: 8px;
+  margin-top: 5px;
+  margin-left: -2px;
 }
 .fa-envelope {
   font-size: 18px;
@@ -149,6 +150,4 @@
   font-weight: bold;
   text-align: center;
   color: #fff;
-}
-.fa-magnifying-glass {
 }
