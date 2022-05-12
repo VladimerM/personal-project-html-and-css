@@ -1,5 +1,5 @@
 .comments {
-  margin-bottom: 170px;
+  margin-bottom: 177px;
 }
 .comments__header {
   display: flex;
@@ -136,7 +136,7 @@
   color: #2f2933;
 }
 .comment__date {
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-size: 16px;
   color: #ccc;
 }
@@ -152,7 +152,7 @@
 .comment__buttons {
   display: flex;
   gap: 20px;
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-size: 14px;
   color: #999;
   text-transform: capitalize;
