@@ -1,0 +1,65 @@
+.sidebar__contact {
+}
+.contact-sidebar {
+}
+.sidebar__item {
+}
+.contact-sidebar__title {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 800;
+  color: #0a0909;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-sidebar__about {
+  font-family: Muli;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #636363;
+  padding-right: 30px;
+  margin-bottom: 22px;
+}
+
+.contact-sidebar__contacts {
+  font-size: 14px;
+  line-height: 1.07;
+  letter-spacing: 0.56px;
+  text-align: left;
+  color: #2d2d2d;
+  margin-left: 4px;
+  font-weight: 700;
+}
+.contact-sidebar__contacts span {
+  font-weight: 400;
+}
+
+.contact-sidebar__location i {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-sidebar__phone i {
+  margin-right: 16px;
+  margin-bottom: 17px;
+}
+.contact-sidebar__email i {
+  margin-right: 17px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: #000;
+}
+.contact-sidebar__button {
+  width: 140px;
+  height: 40px;
+  background-color: #ee3364;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
