@@ -1,0 +1,35 @@
+.sidebar__latest {
+}
+.latest-sidebar {
+  padding-bottom: 55px;
+}
+.sidebar__item {
+}
+.latest-sidebar__title {
+}
+.sub-title {
+}
+.latest-sidebar__buttons {
+  margin-top: 33px;
+
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-left: -8px;
+}
+.latest-sidebar__button {
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: solid 2px #f0f4f7;
+  background-color: rgba(240, 244, 247, 0);
+  transition: 0.3s;
+  font-family: Muli;
+  font-size: 13px;
+  color: #8799a3;
+  cursor: pointer;
+}
+
+.latest-sidebar__button:hover {
+  background-color: #ee3364;
+  color: #fff;
+}
