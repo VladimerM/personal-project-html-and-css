@@ -53,6 +53,7 @@
 .contact-sidebar__button {
   width: 140px;
   height: 40px;
+  margin-left: -4px;
   background-color: #ee3364;
   display: flex;
   justify-content: center;
@@ -62,4 +63,10 @@
   font-weight: bold;
   text-align: center;
   color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contact-sidebar__button:hover {
+  background-color: #ac1f44;
 }
