@@ -1,0 +1,188 @@
+.footer {
+  background-color: #202020;
+}
+.footer__main {
+  display: flex;
+  gap: 7px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+}
+
+.about-footer {
+  flex: 0 0 25%;
+  padding-right: 15px;
+}
+.about-footer__logo {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.57;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.about-footer__logo span {
+  color: #ee3364;
+}
+
+.about-footer__about {
+  font-family: Muli;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.28px;
+  color: #dfdfdf;
+  margin-bottom: 8px;
+}
+.about-footer__link {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.88;
+  letter-spacing: -0.24px;
+  color: #909090;
+}
+
+.news-footer {
+  flex: 0 0 25%;
+}
+.news-footer__title {
+  letter-spacing: -0.92px;
+  margin-bottom: 34px;
+}
+.footer__sub-title {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.65;
+  color: #fff;
+  /* margin */
+}
+.news-footer__sub-title {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.18;
+  color: #fff;
+  margin-bottom: 13px;
+  padding-right: 45px;
+}
+.news-footer__date {
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 1.17;
+  color: #7d7d7d;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.news-footer__date i {
+  color: yellow;
+  font-size: 15px;
+}
+
+.footer__twit {
+}
+.twit {
+  flex: 0 0 25%;
+}
+.twit__title {
+  margin-bottom: 23px;
+}
+.twit__sub-title {
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 1.87;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.twit__mail {
+  font-size: 15px;
+  color: #7d7d7d;
+  width: 280px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 10px;
+}
+
+.twit__about {
+  font-family: Muli;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #7f7f7f;
+  margin-bottom: 7px;
+}
+.twit__date {
+  font-family: Muli;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 2;
+  color: #7d7d7d;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.contact {
+  flex: 0 0 25%;
+}
+.contact__title {
+  margin-bottom: 20px;
+}
+.contact__about {
+  font-family: Muli;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #7f7f7f;
+  margin-bottom: 5px;
+}
+
+.label {
+  color: #fff;
+  text-decoration: none;
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.cotact__phone {
+  margin-bottom: 35px;
+}
+.contact__text {
+  font-family: Muli;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #7f7f7f;
+  text-decoration: underline;
+}
+.contact__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.icon__vimeo {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1eb7ea;
+  margin-left: -4px;
+}
+
+.footer__copy {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.73;
+  text-align: left;
+  color: #616262;
+  padding-right: 60px;
+}
