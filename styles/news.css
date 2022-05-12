@@ -49,6 +49,7 @@
   line-height: 1.32;
   letter-spacing: 0.38px;
   color: #1d1d1d;
+  cursor: pointer;
 }
 
 .news__ad .ad__img {

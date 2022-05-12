@@ -22,7 +22,7 @@
 .comment {
   display: flex;
   position: relative;
-  padding: 26px 0px 22px 32px;
+  padding: 26px 22px 22px 32px;
   gap: 30px;
   border-radius: 2px;
   border: solid 1px #ececec;
@@ -41,6 +41,10 @@
   height: 79px;
   border-radius: 2.6px;
   background-color: #d2d2d2;
+}
+
+.comment.carl {
+  padding-right: 5px;
 }
 
 .comment.carl .comment__avatar {
@@ -161,6 +165,33 @@
 }
 
 .comment__buttons i:hover {
+  color: #ee3364;
+}
+
+.comment__reply {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.comment__share {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.comment__stars {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.comment__reply:hover {
+  color: #ee3364;
+}
+
+.comment__share:hover {
+  color: #ee3364;
+}
+
+.comment__stars:hover {
   color: #ee3364;
 }
 

@@ -34,23 +34,26 @@
   display: flex;
   align-items: center;
   gap: 25px;
-  background-color: #000000;
 }
 
 .button__facebook {
   padding-left: 30px;
+  background-color: #2f5ebe;
 }
 
 .button__twitter {
   padding-left: 30px;
+  background-color: #00d8ff;
 }
 
 .button__google {
   padding-left: 30px;
   text-transform: lowercase;
+  background-color: #4a4d54;
 }
 
 .button__pinterest {
   padding-left: 45px;
   text-transform: lowercase;
+  background-color: #cb2027;
 }
