@@ -1,5 +1,5 @@
 .comments {
-  margin-bottom: 177px;
+  margin-bottom: 170px;
 }
 .comments__header {
   display: flex;
@@ -58,11 +58,11 @@
 }
 
 .comment.harold {
-  padding: 23px 29px 30px 85px;
+  padding: 25px 29px 33px 86px;
 }
 
 .comment.harold .comment__title {
-  margin-top: 12px;
+  margin-top: 13px;
   margin-bottom: 11px;
 }
 
@@ -76,8 +76,12 @@
 }
 
 .comment.johnson {
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding: 24px 29px 30px 86px;
+}
+
+.comment.johnson .comment__avatar {
+  flex: 0 0 75px;
+  height: 73px;
 }
 
 .comment.johnson .comment__about {
@@ -104,7 +108,7 @@
 }
 
 .comment.tyler {
-  padding-top: 25px;
+  padding-top: 27px;
 }
 
 .tyler .comment__title {

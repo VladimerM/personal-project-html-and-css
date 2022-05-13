@@ -5,6 +5,7 @@
   line-height: 1.67;
   color: #2f2933;
   margin-bottom: 24px;
+  margin-left: -2px;
 }
 .social__img {
   width: 770px;
@@ -29,7 +30,7 @@
 }
 
 .social__buttons .btn {
-  width: 184.8px;
+  width: 185px;
   height: 40px;
   display: flex;
   align-items: center;
