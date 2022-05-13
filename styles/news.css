@@ -4,6 +4,7 @@
 .news__title {
   font-size: 21px;
   font-weight: bold;
+  letter-spacing: 0.2px;
   line-height: 1.9;
   color: #191919;
   margin-bottom: 26px;

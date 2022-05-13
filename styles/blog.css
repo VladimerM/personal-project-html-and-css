@@ -65,18 +65,17 @@
   height: 38px;
   background-color: #ee3364;
   position: relative;
-  top: -20px;
-  left: -45px;
+  top: -21px;
+  left: -46px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "BwModelica";
   font-size: 13px;
-  line-height: 2.31;
+  color: #fff;
 }
 
-.title__btn i {
-  font-size: 18px;
+.title__btn img {
   margin-right: 5px;
 }
 

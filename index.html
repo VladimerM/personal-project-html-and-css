@@ -63,7 +63,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header" id="header">
+      <header class="header" >
         <div class="header__contact _container">
           <div class="header__not-social">
             <div class="header__mail">
@@ -94,22 +94,22 @@
           <nav class="header__nav menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link">Home</a>
+                <a href="#home" class="menu__link">Home</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Pages</a>
+                <a href="#pages" class="menu__link">Pages</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Portfolio</a>
+                <a href="#portfolio" class="menu__link">Portfolio</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Shortcodes</a>
+                <a href="#shortcodes" class="menu__link">Shortcodes</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Blog</a>
+                <a href="#blog" class="menu__link">Blog</a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__link">Shop</a>
+                <a href="#shop" class="menu__link">Shop</a>
               </li>
             </ul>
             <div class="menu__icons">
@@ -122,7 +122,7 @@
           </nav>
         </div>
       </header>
-      <div class="single">
+      <div class="single" id="header">
         <h1 class="single__title">Blog Single</h1>
         <div class="navbar">
           <a href="#" class="navbar__link">Home </a>
@@ -134,7 +134,7 @@
       </div>
       <div class="page">
         <main class="main">
-          <div class="main__blog blog">
+          <div class="main__blog blog" id="pages">
             <div class="blog__img"></div>
             <div class="blog__author author">
               <div class="author__name">
@@ -150,7 +150,7 @@
                 >Dr. Gulati Wants To Take A Shower - The Kapil Sharma Show</span
               >
               <div class="title__btn">
-                <i class="fa-solid fa-message"></i>
+                <img src="./images/chat-1.png" alt="chat img">
                 02
               </div>
             </div>
@@ -178,7 +178,7 @@
               would be necessary to have uniform grammar, pronunciation
             </div>
           </div>
-          <div class="main__download download">
+          <div class="main__download download" id="portfolio">
             <div class="download__title">
               Blog H2 Heading Title / Download Example
             </div>
@@ -196,7 +196,7 @@
                 </li>
                 <li class="download__item">
                   <span><i class="fa-solid fa-circle"></i></span>
-                  Fusce malesuada lacus eget mi henrerit, in pretium
+                  Fusce malesuada lacus eget mi hendrerit, in pretium
                 </li>
                 <li class="download__item">
                   <span><i class="fa-solid fa-circle"></i></span> felis rhoncus
@@ -210,16 +210,16 @@
                   Sed at elit vehicula, luctus nibh vel, tincidunt tellus
                 </li>
               </ul>
-              <div class="download__btn btn">
+              <button class="download__btn btn">
                 Download <i class="fa-solid fa-download"></i>
-              </div>
+              </button>
             </div>
             <div class="download__ad ad">
               <div class="ad__title">Advertising</div>
               <div class="ad__img"></div>
             </div>
           </div>
-          <div class="main__social social">
+          <div class="main__social social" id="shortcodes">
             <h2 class="social__title">Blog H2 Heading Title</h2>
             <div class="social__img"></div>
             <div class="social__about about">
@@ -260,7 +260,7 @@
               >
             </div>
           </div>
-          <div class="main__montina montina">
+          <div class="main__montina montina" id="blog">
             <div class="montina__tags">
               <div class="montina__tag">
                 <i class="fa-solid fa-tag"></i>
@@ -280,7 +280,7 @@
               </div>
             </div>
           </div>
-          <div class="main__news news">
+          <div class="main__news news" id="shop">
             <div class="news__title">Related articles</div>
             <div class="news__articles">
               <div class="news__article article">
@@ -450,7 +450,7 @@
                     <i class="fa-solid fa-share-nodes"></i> share
                   </div>
                   <div class="comment__stars">
-                    <i class="fa-solid fa-star"></i> 2048
+                    <i class="fa-solid fa-star"></i> 20048
                   </div>
 
                   <i class="fa-solid fa-angle-down"></i>
@@ -480,7 +480,7 @@
                     <i class="fa-solid fa-share-nodes"></i> share
                   </div>
                   <div class="comment__stars">
-                    <i class="fa-solid fa-star"></i> 2048
+                    <i class="fa-solid fa-star"></i> 20048
                   </div>
 
                   <i class="fa-solid fa-angle-down"></i>
@@ -510,7 +510,7 @@
                     <i class="fa-solid fa-share-nodes"></i> share
                   </div>
                   <div class="comment__stars">
-                    <i class="fa-solid fa-star"></i> 2048
+                    <i class="fa-solid fa-star"></i> 678
                   </div>
 
                   <i class="fa-solid fa-angle-down"></i>
@@ -540,7 +540,7 @@
                     <i class="fa-solid fa-share-nodes"></i> share
                   </div>
                   <div class="comment__stars">
-                    <i class="fa-solid fa-star"></i> 2048
+                    <i class="fa-solid fa-star"></i> 11
                   </div>
 
                   <i class="fa-solid fa-angle-down"></i>
@@ -580,7 +580,10 @@
               placeholder="@mexo"
             />
             <div class="form__submit">
-              <div class="submit">Submit Now <span>$</span></div>
+              <button type="submit" class="submit">
+                Submit Now <span>$</span>
+              </button>
+              <button type="submit"></button>
               <div class="form__checkbox">
                 <input
                   type="checkbox"
@@ -641,7 +644,7 @@
               </div>
               <div class="news-sidebar__item post .video">
                 <div class="post__avatar">
-                  <img src="./images/Photo-1.png" alt="" />
+                  <img src="./images/bg photo.png" alt="" />
                 </div>
                 <div class="post__info">
                   <div class="post__date">23 September</div>
@@ -759,12 +762,14 @@
               ><span class="contact__text">212-962-0125 or 212-962-8217</span>
             </div>
             <div class="contact__icons">
-              <div class="icon__vimeo">
-                <i class="fa-brands fa-vimeo-v"></i>
-              </div>
-              <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-google-plus-g"></i>
+              <a href="#">
+                <div class="icon__vimeo">
+                  <i class="fa-brands fa-vimeo-v"></i>
+                </div>
+              </a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></ა>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
             </div>
           </div>
         </div>

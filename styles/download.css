@@ -10,11 +10,11 @@
   line-height: 1.67;
   text-align: left;
   color: #2f2933;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   flex: 0 0 100%;
 }
 .download__about {
-  margin-bottom: 24px;
+  margin-bottom: 21px;
   flex: 0 0 100%;
 }
 
@@ -23,7 +23,7 @@
 }
 .download__list {
   font-family: "Glacial Indifference";
-  margin-bottom: 27px;
+  margin-bottom: 29px;
 }
 
 .download__list span {
@@ -72,6 +72,7 @@
   color: #ccc;
   text-transform: uppercase;
   margin-bottom: 3px;
+  margin-top: 2px;
 }
 .ad__img {
   width: 300px;

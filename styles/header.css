@@ -62,13 +62,22 @@
   gap: 20px;
 }
 
+.header__social i {
+  transition: 0.3s;
+}
+
+.header__social i:hover {
+  color: #ee3364;
+  opacity: 1;
+}
+
 .header__social .fa-facebook-f {
   color: #707070;
   font-size: 15px;
 }
 
 .header__social .fa-twitter {
-  color: #ee3364;
+  color: #707070;
 }
 .header__social .fa-google-plus-g {
   color: #4e4e4e;
@@ -115,7 +124,6 @@
   font-family: Muli;
   font-size: 18px;
   font-weight: bold;
-  line-height: 2;
   color: #0a0909;
   transition: 0.2s;
 }

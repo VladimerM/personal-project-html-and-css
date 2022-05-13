@@ -9,7 +9,7 @@
 .comments__title {
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 2.2px;
   color: #222;
 }
 .comments__number {
@@ -32,6 +32,10 @@
   margin-bottom: 20px;
 }
 
+.comment.scott .comment__name {
+  letter-spacing: 0.6px;
+}
+
 .comment.reply {
   padding-left: 83px;
   background-color: rgba(105, 210, 231, 0.06);
@@ -45,6 +49,10 @@
 
 .comment.carl {
   padding-right: 5px;
+}
+
+.comment.carl .comment__name {
+  letter-spacing: 0.6px;
 }
 
 .comment.carl .comment__avatar {
@@ -102,6 +110,10 @@
   margin-bottom: 11px;
 }
 
+.justin .comment__name {
+  letter-spacing: 0px;
+}
+
 .comment.justin .comment__avatar {
   flex: 0 0 60px;
   height: 60px;
@@ -136,12 +148,11 @@
 .comment__name {
   font-size: 21px;
   font-weight: 800;
-  letter-spacing: 0.6px;
   color: #2f2933;
 }
 .comment__date {
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 14px;
   color: #ccc;
 }
 .comment__about {
@@ -155,7 +166,7 @@
 
 .comment__buttons {
   display: flex;
-  gap: 20px;
+  gap: 13px;
   font-family: "Open Sans";
   font-size: 14px;
   color: #999;
