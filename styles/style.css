@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "bwModelica";
+  src: url("../fonts/BwModelica-Regular.woff2");
+}
+
+@font-face {
+  font-family: "bwModelicaB";
+  src: url("../fonts/BwModelica-Bold.woff2");
+}
+
 html {
   scroll-behavior: smooth;
 }
