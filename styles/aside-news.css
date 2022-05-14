@@ -61,4 +61,9 @@
   font-weight: bold;
   line-height: 3;
   color: #fff;
+  transition: 0.3s;
+}
+
+.news-sidebar__button:hover {
+  background-color: #c51c49;
 }
