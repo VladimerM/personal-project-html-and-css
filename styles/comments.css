@@ -151,7 +151,7 @@
   color: #2f2933;
 }
 .comment__date {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 14px;
   color: #ccc;
 }
@@ -167,7 +167,7 @@
 .comment__buttons {
   display: flex;
   gap: 13px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 14px;
   color: #999;
   text-transform: capitalize;
@@ -180,7 +180,7 @@
 }
 
 .comment__buttons i:hover {
-  color: #ee3364;
+  color: #69d2e7;
 }
 
 .comment__reply {
@@ -199,24 +199,24 @@
 }
 
 .comment__reply:hover {
-  color: #ee3364;
+  color: #69d2e7;
 }
 
 .comment__share:hover {
-  color: #ee3364;
+  color: #69d2e7;
 }
 
 .comment__stars:hover {
-  color: #ee3364;
+  color: #69d2e7;
 }
 
 .comment__reply::after {
-  content: "/";
+  content: '/';
   padding-left: 15px;
 }
 
 .comment__share::after {
-  content: "/";
+  content: '/';
   padding-left: 15px;
 }
 

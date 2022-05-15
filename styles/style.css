@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "bwModelica";
-  src: url("../fonts/BwModelica-Regular.woff2");
+  font-family: 'bwModelica';
+  src: url('../fonts/BwModelica-Regular.woff2');
 }
 
 @font-face {
-  font-family: "bwModelicaB";
-  src: url("../fonts/BwModelica-Bold.woff2");
+  font-family: 'bwModelicaB';
+  src: url('../fonts/BwModelica-Bold.woff2');
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Glacial Indifference";
+  font-family: 'Glacial Indifference';
 }
 
 ._container {
@@ -28,11 +28,11 @@ body {
   gap: 10px;
 }
 .main {
-  flex: 0 0 800px;
+  flex: 1 1 800px;
 }
 
 .sidebar {
-  flex: 0 0 360px;
+  flex: 1 1 360px;
   display: flex;
   flex-direction: column;
   gap: 49px;

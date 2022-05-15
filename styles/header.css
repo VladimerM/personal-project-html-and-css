@@ -15,7 +15,7 @@
 }
 
 .header__contact::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   position: absolute;
@@ -92,6 +92,7 @@
 
 .header__main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 95px;
   align-items: center;
@@ -151,7 +152,6 @@
 
 .cart {
   position: relative;
-  /* font-size: 18px; */
 }
 
 .cart__number {

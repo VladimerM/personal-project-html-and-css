@@ -67,7 +67,7 @@
   letter-spacing: 0.2px;
 }
 .news-footer__date {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 12px;
   line-height: 1.17;
   color: #7d7d7d;
@@ -182,7 +182,7 @@
   align-items: center;
   justify-content: center;
   background-color: #161616;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.73;
   text-align: left;
