@@ -143,7 +143,7 @@
   /* left: 0; */
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  border: solid #666666;
 }
 
 /* On mouse-over, add a grey background color */
@@ -170,8 +170,8 @@
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 7px;
+  top: 3px;
   width: 6px;
   height: 10px;
   border: solid #666666;
