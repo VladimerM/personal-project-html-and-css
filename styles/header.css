@@ -6,6 +6,7 @@
 }
 .header__contact {
   display: flex;
+  flex-wrap: wrap;
   height: 48px;
   align-items: center;
   justify-content: space-between;
@@ -98,6 +99,12 @@
   align-items: center;
   margin-left: 5px;
 }
+
+@media (max-width: 500px) {
+  .header__main {
+    height: 120px;
+  }
+}
 .header__logo {
   font-family: Poppins;
   font-size: 40px;
@@ -116,10 +123,20 @@
   align-items: center;
   margin-top: 5px;
 }
+
 .menu__list {
   margin-top: -4px;
   display: flex;
+  flex-wrap: wrap;
   gap: 42px;
+}
+@media (max-width: 950px) {
+  .menu {
+    gap: 50px;
+  }
+  .menu__list {
+    gap: 10px;
+  }
 }
 .menu__item {
   font-family: Muli;

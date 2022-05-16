@@ -31,8 +31,12 @@ body {
   flex: 1 1 800px;
 }
 
+.main ._container {
+  max-width: 802.16px;
+}
+
 .sidebar {
-  flex: 1 1 360px;
+  flex: 1 0 360px;
   display: flex;
   flex-direction: column;
   gap: 49px;
